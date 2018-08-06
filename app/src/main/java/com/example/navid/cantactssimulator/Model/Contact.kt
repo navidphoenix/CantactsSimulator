@@ -11,6 +11,4 @@ data class Contact
         @ColumnInfo(name="tell") var tell:String ,
         @ColumnInfo(name="email") var email:String ,
         @ColumnInfo(name="image") var image:String
-    ) {
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name="id") var id:Int=0
-}
+    ) { @PrimaryKey(autoGenerate = true) @ColumnInfo(name="id") var id:Int=0 }
